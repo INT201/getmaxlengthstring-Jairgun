@@ -17,6 +17,6 @@ function getMaxLengthString(arrayOfString) {
       }
     }
   }
-  return ans = [ans_max]
+  return ans = [ans]
 }
 module.exports = getMaxLengthString
