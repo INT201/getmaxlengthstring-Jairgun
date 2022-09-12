@@ -12,6 +12,9 @@ function getMaxLengthString(arrayOfString) {
         ans = arrayOfString[i]
         max_str = maxi
       }
+      else if (maxi == max_str) {
+        ans = [`${ans}`,`${arrayOfString[i]}`]
+      }
     }
   }
   return ans
