@@ -14,6 +14,7 @@ function getMaxLengthString(arrayOfString) {
       }
       else if (maxi == max_str) {
         ans = [`${ans}`,`${arrayOfString[i]}`]
+        return ans
       }
     }
   }
