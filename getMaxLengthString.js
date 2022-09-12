@@ -4,16 +4,16 @@ function getMaxLengthString(arrayOfString) {
   //code here
   if(arrayOfString == undefined || null) return undefined
   else {
-    max_str = arrayOfString[0].length
-    ans = arrayOfString[0]
+    var max_str = arrayOfString[0].length
+    var ans = arrayOfString[0]
     for (i=1; i<arrayOfString.length; i++) {
       var maxi = arrayOfString[i].length
       if (maxi > max_str) {
-        ans = arra[i]
+        ans = arrayOfString[i]
         max_str = maxi
       }
     }
   }
-  return ans
+  return console.log(ans)
 }
 module.exports = getMaxLengthString
